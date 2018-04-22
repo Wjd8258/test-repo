@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+<parameter name="BrowserName"  value="chrome"/>
+<parameter name="HomePage"  value="http://facebook.com"/>
+  <test name="SimpleParamExample">
+      <classes>
+      <class name="com.facebook.tests.TestHomePages" >
+      <methods>
+        <include name="testFaceBookTitleOnPageLoad"/>
+      </methods>
+      </class>
+    </classes>
+    </test> 
+    </suite>
+    
+ 

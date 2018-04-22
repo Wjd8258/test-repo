@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11242" started-at="2018-04-21T11:15:34Z" finished-at="2018-04-21T11:15:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11242" started-at="2018-04-21T11:15:34Z" finished-at="2018-04-21T11:15:45Z">
+      <class name="com.guru99.tests.Test99GuruHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.Test99GuruHomePage@553f17c]" name="setUp" is-config="true" duration-ms="10028" started-at="2018-04-21T11:15:34Z" finished-at="2018-04-21T11:15:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_Home_Page_DashBoard_StepsGenerateAccess()[pri:0, instance:com.guru99.tests.Test99GuruHomePage@553f17c]" name="test_Home_Page_DashBoard_StepsGenerateAccess" duration-ms="92" started-at="2018-04-21T11:15:44Z" finished-at="2018-04-21T11:15:44Z">
+        </test-method>
+        <test-method status="PASS" signature="test_Home_Page_DashBoard_UserName()[pri:0, instance:com.guru99.tests.Test99GuruHomePage@553f17c]" name="test_Home_Page_DashBoard_UserName" duration-ms="84" started-at="2018-04-21T11:15:44Z" finished-at="2018-04-21T11:15:44Z">
+        </test-method>
+        <test-method status="FAIL" signature="test_Home_Page_Dashboard_clickSeleniumDropdownList()[pri:0, instance:com.guru99.tests.Test99GuruHomePage@553f17c]" name="test_Home_Page_Dashboard_clickSeleniumDropdownList" duration-ms="1" started-at="2018-04-21T11:15:44Z" finished-at="2018-04-21T11:15:44Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+	The method checkSeleniumSelectElementFromDropDown() in the type Guru99HomePage is not applicable for the arguments (String)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The method checkSeleniumSelectElementFromDropDown() in the type Guru99HomePage is not applicable for the arguments (String)
+
+	at com.guru99.tests.Test99GuruHomePage.test_Home_Page_Dashboard_clickSeleniumDropdownList(Test99GuruHomePage.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.tests.Test99GuruHomePage@553f17c]" name="tearDown" is-config="true" duration-ms="1008" started-at="2018-04-21T11:15:44Z" finished-at="2018-04-21T11:15:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
